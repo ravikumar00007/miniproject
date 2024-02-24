@@ -105,7 +105,7 @@ public class Runner implements ApplicationRunner {
 		c9.setBenifitAmount(54000.0);
 
 		CitizenPlan c10 = new CitizenPlan();
-		c10.setCitizenName("kaithy");
+		c10.setCitizenName("didu");
 		c10.setGender("female");
 		c10.setPlanNames("medical");
 		c10.setPlanStatus("approved");
@@ -130,8 +130,35 @@ public class Runner implements ApplicationRunner {
 		c12.setPlanStartDate(LocalDate.now());
 		c12.setPlanEndDate(LocalDate.now().plusMonths(9));
 		c12.setTerminationReason("gov employee");
+		
+		CitizenPlan c13 = new CitizenPlan();
+		c13.setCitizenName("sadhna");
+		c13.setGender("female");
+		c13.setPlanNames("cash");
+		c13.setPlanStatus("terminated");
+		c13.setPlanStartDate(LocalDate.now());
+		c13.setPlanEndDate(LocalDate.now().plusMonths(9));
+		c13.setTerminationReason("gov employee");
+		
+		CitizenPlan c14 = new CitizenPlan();
+		c14.setCitizenName("rajnandani");
+		c14.setGender("female");
+		c14.setPlanNames("food");
+		c14.setPlanStatus("terminated");
+		c14.setPlanStartDate(LocalDate.now());
+		c14.setPlanEndDate(LocalDate.now().plusMonths(9));
+		c14.setTerminationReason("gov employee");
+		
+		CitizenPlan c15 = new CitizenPlan();
+		c15.setCitizenName("ravi");
+		c15.setGender("male");
+		c15.setPlanNames("cash");
+		c15.setPlanStatus("terminated");
+		c15.setPlanStartDate(LocalDate.now());
+		c15.setPlanEndDate(LocalDate.now().plusMonths(9));
+		c15.setTerminationReason("gov employee");
 
-		List<CitizenPlan> list = List.of(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12);
+		List<CitizenPlan> list = List.of(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15);
 		String str = service.saveCitizen(list);
 		System.out.println(str);
 

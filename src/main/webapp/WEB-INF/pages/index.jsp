@@ -14,16 +14,16 @@
 </head>
 <body>
 	<div class="container">
-		<h3>Report service</h3>
+		<h2 style="color:red;text-align:center" class="p-3 mb-2 bg-info text-red">Plan Report</h2>
 
 	</div>
-	<div class="container">
+	<div class="container;p-3 mb-2 bg-primary-subtle text-primary-emphasis">
 		<frm:form action="search" modelAttribute="serchRequest" method="POST">
 			<table>
 				<tr>
 					<td>planNames</td>
 					<td><frm:select path="planNames">
-						<frm:option value="">-select-</frm:option>
+						<frm:option value="" >-select-</frm:option>
 						<frm:options items="${planNames }"/>
 						
 						</frm:select>
@@ -83,8 +83,11 @@
 		</frm:form>
 		<hr/>
 		<hr/>
-				Export : <a href="excel ">Excel</a> <a href="pdf" >Pdf</a>
+				Export : <a href="excel ">Excel</a> <a href="pdf" >Pdf</a> <a href="see developer"><img  src=""></a>
+				
 	</div>
+	
+				<h5 style="text-align:center">Copyright &copy; 2024 by S.S. infotech</h5>
 
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
