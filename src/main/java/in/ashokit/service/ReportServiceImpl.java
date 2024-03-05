@@ -55,20 +55,16 @@ public class ReportServiceImpl implements IReportService {
 		if (null != request.getGender()  && !"".equals(request.getGender()))
 			cp.setGender(request.getGender());
 		if (null != request.getStartDate()  && !"".equals(request.getStartDate())) {
-			//String startDate = request.getStartDate();
-			//DateTimeFormatter ofPattern = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-			//LocalDate parse = LocalDate.parse(startDate, ofPattern);
+			
 			cp.setPlanStartDate(request.getStartDate());
 		}
 		if (null != request.getEndDate()  && !"".equals(request.getEndDate())) {
-		//String endDate = request.getEndDate();
-		//DateTimeFormatter ofPattern = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-		//LocalDate parse = LocalDate.parse(endDate, ofPattern);
+		
 		cp.setPlanEndDate(request.getEndDate());
 		}
 		
 		List<CitizenPlan> findAll = repo.findAll(Example.of(cp));
-		findAll.forEach(System.out::println);
+		//findAll.forEach(System.out::println);
 		return findAll;
 	}
 
