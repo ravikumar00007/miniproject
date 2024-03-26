@@ -157,6 +157,15 @@ public class Runner implements ApplicationRunner {
 		c15.setPlanStartDate(LocalDate.now());
 		c15.setPlanEndDate(LocalDate.now().plusMonths(9));
 		c15.setTerminationReason("gov employee");
+		
+		CitizenPlan c16 = new CitizenPlan();
+		c15.setCitizenName("swastika");
+		c15.setGender("female");
+		c15.setPlanNames("cash");
+		c15.setPlanStatus("terminated");
+		c15.setPlanStartDate(LocalDate.now());
+		c15.setPlanEndDate(LocalDate.now().plusMonths(9));
+		c15.setTerminationReason("gov employee");
 
 		List<CitizenPlan> list = List.of(c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15);
 		String str = service.saveCitizen(list);

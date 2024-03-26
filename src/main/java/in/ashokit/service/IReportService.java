@@ -14,10 +14,9 @@ public interface IReportService {
 
 	public List<String> getPlanStatus();
 
-	public boolean exportExcel(HttpServletResponse response)throws Exception;
-	public boolean exportPdf(HttpServletResponse response)throws Exception;
+	public boolean exportExcel(HttpServletResponse response) throws Exception;
 
-	
+	public boolean exportPdf(HttpServletResponse response) throws Exception;
 
 	public List<CitizenPlan> serchRequest(SearchRequest request);
 }
