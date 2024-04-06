@@ -34,7 +34,7 @@ public class Runner implements ApplicationRunner {
 		c1.setBenifitAmount(5000.0);
 		//
 		CitizenPlan c2 = new CitizenPlan();
-		c2.setCitizenName("subah");
+		c2.setCitizenName("david");
 		c2.setGender("female");
 		c2.setPlanNames("cash");
 		c2.setPlanStatus("approved");
@@ -43,7 +43,7 @@ public class Runner implements ApplicationRunner {
 		c2.setBenifitAmount(54000.0);
 
 		CitizenPlan c3 = new CitizenPlan();
-		c3.setCitizenName("kiran");
+		c3.setCitizenName("peter");
 		c3.setGender("female");
 		c3.setPlanNames("cash");
 		c3.setPlanStatus("terminated");
@@ -51,7 +51,7 @@ public class Runner implements ApplicationRunner {
 		c3.setTerminationReason("Employeed");
 
 		CitizenPlan c4 = new CitizenPlan();
-		c4.setCitizenName("kalyani");
+		c4.setCitizenName("mariya");
 		c4.setGender("female");
 		c4.setPlanNames("food");
 		c4.setPlanStatus("approved");
@@ -60,7 +60,7 @@ public class Runner implements ApplicationRunner {
 		c4.setBenifitAmount(54000.0);
 
 		CitizenPlan c5 = new CitizenPlan();
-		c5.setCitizenName("priyanka");
+		c5.setCitizenName("sanorita");
 		c5.setGender("female");
 		c5.setPlanNames("food");
 		c5.setPlanStatus("terminated");
@@ -78,7 +78,7 @@ public class Runner implements ApplicationRunner {
 		c6.setBenifitAmount(54000.0);
 
 		CitizenPlan c7 = new CitizenPlan();
-		c7.setCitizenName("david");
+		c7.setCitizenName("john");
 		c7.setGender("male");
 		c7.setPlanNames("medical");
 		c7.setPlanStatus("terminated");
@@ -96,7 +96,7 @@ public class Runner implements ApplicationRunner {
 		c8.setTerminationReason("employee");
 
 		CitizenPlan c9 = new CitizenPlan();
-		c9.setCitizenName("john");
+		c9.setCitizenName("john1");
 		c9.setGender("male");
 		c9.setPlanNames("food");
 		c9.setPlanStatus("approved");
@@ -105,7 +105,7 @@ public class Runner implements ApplicationRunner {
 		c9.setBenifitAmount(54000.0);
 
 		CitizenPlan c10 = new CitizenPlan();
-		c10.setCitizenName("didu");
+		c10.setCitizenName("robin");
 		c10.setGender("female");
 		c10.setPlanNames("medical");
 		c10.setPlanStatus("approved");
@@ -132,7 +132,7 @@ public class Runner implements ApplicationRunner {
 		c12.setTerminationReason("gov employee");
 		
 		CitizenPlan c13 = new CitizenPlan();
-		c13.setCitizenName("sadhna");
+		c13.setCitizenName("lora");
 		c13.setGender("female");
 		c13.setPlanNames("cash");
 		c13.setPlanStatus("terminated");
@@ -141,7 +141,7 @@ public class Runner implements ApplicationRunner {
 		c13.setTerminationReason("gov employee");
 		
 		CitizenPlan c14 = new CitizenPlan();
-		c14.setCitizenName("rajnandani");
+		c14.setCitizenName("rosi");
 		c14.setGender("female");
 		c14.setPlanNames("food");
 		c14.setPlanStatus("terminated");
@@ -159,7 +159,7 @@ public class Runner implements ApplicationRunner {
 		c15.setTerminationReason("gov employee");
 		
 		CitizenPlan c16 = new CitizenPlan();
-		c15.setCitizenName("swastika");
+		c15.setCitizenName("staila");
 		c15.setGender("female");
 		c15.setPlanNames("cash");
 		c15.setPlanStatus("terminated");
